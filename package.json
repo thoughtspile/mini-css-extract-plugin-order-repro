@@ -1,0 +1,15 @@
+{
+  "name": "web5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "mini-css-extract-plugin": "^2.3.0",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "reproduce": "npx webpack && cat dist/main.css"
+  }
+}
